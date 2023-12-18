@@ -1,0 +1,83 @@
+@media(max-width:992px) {
+    .navbar_style{
+        background-color: #000;
+    }
+    .navbar_style .navbar-brand{
+        color: #fff;
+    }
+    .menu_btn{
+        border: 1px solid #fff;
+    }
+    .menu_btn span {
+        filter: invert(1);
+    }
+    .navbar_ul .nav-item .nav-link span{
+        color: #ffff;
+    }
+    .banner_text h2{
+        font-size: 45px;
+    }
+    .hobby>div{
+        margin-bottom: 10px;
+    }
+    .hobby{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .about_det li:nth-child(3) a{
+        padding-left: 47px;
+    }
+}
+@media(max-width:768px){
+    .about_det li:nth-child(3) a{
+        padding-left: 30px;
+    }   
+}
+@media(max-width:576px){
+    .banner_text h2{
+        font-size: 25px;
+    }
+    .banner_text button{
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+    .banner_left_sec{
+        max-height: 80vh;
+    }
+    .banner_right_sec{
+        max-height: 80vh;
+    }
+    .hobby>div{
+        margin-bottom: 10px;
+    }
+    .about_det li p{
+        width: 80px;
+        font-size: 14px;
+    }
+    .about_det li a{
+        font-size: 14px;
+    }
+    .hobby{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .about_det li:nth-child(3) a{
+        padding-left: 20px;
+    }
+    .mind_section_img{
+        position: static;
+    }
+    
+    .send_msg_btn{
+        width: 100%;
+    }
+    .ft_dv{
+        padding:30px 30px 0;
+    }
+    .ft_dv h4{
+        padding-bottom: 20px;
+    }
+    .footer_section{
+        padding: 50px 0;
+    }
+}
