@@ -1,8 +1,6 @@
 @media(max-width:992px) {
     .navbar_style{
         background-color: #000;
-    }
-    .navbar_style{
         position: static;
     }
     .navbar_style .navbar-brand{
