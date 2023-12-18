@@ -2,6 +2,9 @@
     .navbar_style{
         background-color: #000;
     }
+    .navbar_style{
+        position: static;
+    }
     .navbar_style .navbar-brand{
         color: #fff;
     }
@@ -89,7 +92,5 @@
     .overlay-2{
          width: 100px;
     }
-    .navbar_style{
-        position: static;
-    }
+    
 }
