@@ -82,8 +82,10 @@
     }
     .overlay-1 {
         width: 100px;
+        left:50px;
     }
     .overlay-2{
          width: 100px;
+        left:50px;
     }
 }
