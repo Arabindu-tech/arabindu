@@ -89,5 +89,7 @@
     .overlay-2{
          width: 100px;
     }
-    
+    .my_img{
+        background-image:url(../image/arabindu2_mobile.jpg);
+    }
 }
