@@ -1,2 +1,0 @@
-# arabindu
-author -- Arabindu Bag
