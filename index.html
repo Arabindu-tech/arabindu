@@ -529,7 +529,7 @@
           </ul>
           <div>
             <ul class="ft_social_ul">
-              <a href="https://www.facebook.com/arabindu.bag.9"><li class="ft_social"><i class="fa-brands fa-facebook-f"></i></li></a>
+              <a href="https://www.facebook.com/arabindu.bag.9" onclick="redirectToFacebook(event)"><li class="ft_social"><i class="fa-brands fa-facebook-f"></i></li></a>
               <a href="https://wa.me/6290979670"><li class="ft_social"><i class="fa-brands fa-whatsapp"></i></li></a>
               <a href=""><li class="ft_social"><i class="fa-brands fa-instagram"></i></li></a>
               <a href=""><li class="ft_social"><i class="fa-brands fa-linkedin-in"></i></li></a>
@@ -562,5 +562,24 @@ crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- custom js -->
 <script src="js/main.js"></script>
+<script>
+        function redirectToFacebook(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            
+            // Define the Facebook app URL scheme
+            var appUrl = 'fb://profile/arabindu.bag.9'; // replace 'yourprofileid' with the numeric Facebook profile ID
+            
+            // Define the fallback URL (web version)
+            var webUrl = 'https://www.facebook.com/arabindu.bag.9'; // Replace with your actual Facebook profile URL
+            
+            // Try opening the app
+            window.location.href = appUrl;
+            
+            // If it doesn't open the app (after a short delay), open the web version
+            setTimeout(function() {
+                window.location.href = webUrl;
+            }, 1000); // 1-second delay before falling back to the browser
+        }
+	</script>
 </body> 
 </html>
